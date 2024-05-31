@@ -33,12 +33,15 @@
         }
 
         .logo-container {
-            margin: 20px 0;
+            margin: 20px auto; /* Center the logo */
+            text-align: center; /* Center the logo */
         }
 
         .logo {
             width: 150px; /* Adjust the width as needed */
-            height: auto;
+            height: 150px; /* Make the logo circular */
+            border-radius: 50%; /* Make the logo circular */
+            object-fit: cover; /* Ensure the logo fills the circular area */
         }
 
         .explainer {
@@ -50,6 +53,7 @@
             border: 1px solid #444;
             border-radius: 10px;
             background-color: #222;
+            text-align: center; /* Center the text */
         }
 
         section {
@@ -59,11 +63,10 @@
             border: 1px solid #444;
             border-radius: 10px;
             background-color: #222;
-            text-align: left;
+            text-align: center; /* Center the text */
         }
 
         section h2 {
-            text-align: center;
             color: #f4f4f4;
         }
 
@@ -137,3 +140,4 @@
     </footer>
 </body>
 </html>
+
